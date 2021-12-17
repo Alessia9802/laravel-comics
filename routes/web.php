@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $series = config('db.serie');
-
+    $series = config('db');
+    /* var_dump($series); */
     return view('welcome', compact('series'));
 })->name('welcome');
 

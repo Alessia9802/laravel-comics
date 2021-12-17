@@ -9,7 +9,7 @@
         @foreach($series as $serie)
         <div class="">
 
-            <div class="">
+            <div class="col-4">
                 <img src="{{ $serie['thumb'] }}" alt="">
                 <h5 class="text-center">{{ $serie['title'] }}</h5>
 
