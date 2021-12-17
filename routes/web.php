@@ -14,7 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $series = config('db.serie');
+
+    return view('welcome', compact('series'));
 })->name('welcome');
 
 Route::get('/characters', function () {
