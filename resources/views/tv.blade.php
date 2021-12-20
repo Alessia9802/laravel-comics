@@ -3,7 +3,7 @@
 @section('page-title', 'tv')
 
 @section('custom-css')
-<link rel="stylesheet" href="{{asset('css/app.css')}}">
+<link rel="stylesheet" href="{{asset('css/layout.css')}}">
 @endsection
 
 

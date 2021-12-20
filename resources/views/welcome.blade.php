@@ -5,11 +5,11 @@
 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente iste doloremque architecto quaerat corporis aliquid, exercitationem labore consectetur reiciendis cumque!</p>
 
 <div class="container">
-    <div class="">
+    <div class="d-flex">
         @foreach($series as $serie)
         <div class="">
 
-            <div class="col-4">
+            <div class="">
                 <img src="{{ $serie['thumb'] }}" alt="">
                 <h5 class="text-center">{{ $serie['title'] }}</h5>
 
