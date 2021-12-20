@@ -94,6 +94,23 @@ span {
     background-image: url("../img/jumbotron.jpg");
     width: 100%;
     height: 500px;
+    position: relative;
+}
+
+.current_series {
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(0, 140, 255);
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: -20px;
+    margin-left: 100px;
+    font-size: 20px;
 }
 
 .container_comics {
@@ -105,9 +122,9 @@ span {
     text-transform: uppercase;
     display: flex;
     flex-wrap: wrap;
-    padding: 100px;
-    /* padding-left: 100px;
-    padding-right: 100px; */
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
 }
 
 .cont_comics {
@@ -130,4 +147,18 @@ span {
 .card_title {
     font-size: 14px;
     padding-left: 1rem;
+}
+
+.load {
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(0, 140, 255);
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 40%;
 }

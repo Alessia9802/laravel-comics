@@ -3,8 +3,12 @@
 @section('content')
 
 <div class="main_container">
-    <div class="jumbo"></div>
+    <div class="jumbo">
+        <div class="current_series">current series</div>
+    </div>
+    
     <div class="container_comics">
+        
         @foreach($series as $serie)
         <div class="cont_comics">
 
@@ -13,11 +17,11 @@
                 <h5 class="card_title">{{ $serie['title'] }}</h5>
 
             </div>
-
+            
 
         </div>
         @endforeach
-
+        <div class="load">Load More</div>
     </div>
 </div>
 
